@@ -1,0 +1,14 @@
+
+
+processing file: index.Rmd
+Parsed with column specification:
+cols(
+  X1 = col_character(),
+  X2 = col_character()
+)
+output file: index.knit.md
+
+
+Output created: index.html
+Warning message:
+Missing column names filled in: 'X1' [1], 'X2' [2] 
