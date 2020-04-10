@@ -14,7 +14,7 @@ output:
     toc_float: true
     toc_depth: 2
     number_sections: false
-    theme: lumen
+    theme: yeti
     #css: [css/one-column.css, "https://use.fontawesome.com/releases/v5.7.2/css/all.css"]
     #default, cerulean, journal, flatly, darkly, readable, spacelab, united, cosmo, lumen, paper, sandstone, simplex, and yeti
     highlight: haddock
@@ -49,17 +49,26 @@ source('/home/adrien/github/dotfiles/r/rmarkdown-template.R')
 ```
 ***
 
-`r fontawesomize("Envira")` ``adrienmeli@gmail.com`` \quad | [ Version Github `r fontawesomize("Github")`](https://adrienmeli.github.io/cv/)
+`r fontawesomize("Envira")` ``adrienmeli@gmail.com``
 
 `r fontawesomize("Phone")` ``01.55.43.89.87.``
 
 `r fontawesomize("Envelope")` 236, rue de Charenton 75012 Paris
 
+`r if (knitr::is_latex_output()) {
+    st = "[\\quad \\faGithub \\quad Version Github](https://adrienmeli.github.io/cv/)"
+  st
+  } else if (knitr::is_html_output()) {
+    st = "[Download PDF](https://adrienmeli.github.io/cv/index.pdf)"
+  st
+  } 
+`
+
 ***
 
 \pagebreak
 
-# Synthèse 
+# Synthèse {.tabset .tabset-pills}
 
 TZR agrégé d'anglais 
 
@@ -266,7 +275,7 @@ corpus: the kernel estimate method*. EPIP2017, Caen, 17 mai 2015.
 ## Résumé de la thèse
 
 Ma thèse entreprend d’évaluer l’évolution de l’acquisition phonologique par des étudiants français
-des contrastes anglais /I/-/i:/ et /U/-/u:/.
+des contrastes anglais /`r tipa("I")`/-/i`r tipa(":")`/ et /`r tipa("U")`/-/u`r tipa(":")`/.
 
 Le corpus étudié provient d’enregistrements de conversations spontanées menées avec des étudiants natifs. 12 étudiants, 9 femmes et 3 hommes, ont été suivis lors de 4 sessions espacées
 chacune d’un intervalle de six mois.

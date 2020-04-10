@@ -9,6 +9,17 @@ cols(
 output file: index.knit.md
 
 
-Output created: index.html
-Warning message:
-Missing column names filled in: 'X1' [1], 'X2' [2] 
+Output created: index.pdf
+Warning messages:
+1: Missing column names filled in: 'X1' [1], 'X2' [2] 
+2: In grep("^(LaTeX|Package [[:alnum:]]+) Warning:", x) :
+  input string 1202 is invalid in this locale
+3: In grep("^(LaTeX|Package [[:alnum:]]+) Warning:", x) :
+  input string 1206 is invalid in this locale
+4: In grep("^(LaTeX|Package [[:alnum:]]+) Warning:", x) :
+  input string 1250 is invalid in this locale
+5: In grep("^\\s*$", x) : input string 1202 is invalid in this locale
+6: In grep("^\\s*$", x) : input string 1206 is invalid in this locale
+7: In grep("^\\s*$", x) : input string 1250 is invalid in this locale
+8: Package ifplatform Warning: 
+    shell escape is disabled, so I can only detect \ifwindows. 

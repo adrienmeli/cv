@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.4.2)  9 APR 2020 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.4.2)  10 APR 2020 10:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1134,111 +1134,119 @@ LaTeX Font Warning: Font shape `U/fontawesomeone/l/n' undefined
 (Font)              using `U/fontawesomeone/m/n' instead on input line 191.
 
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 191.
+ut line 193.
 (/usr/share/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/l/n' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 191.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 193.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' in size <12> not available
 (Font)              Font shape `T1/Roboto-LF/bold/n' tried instead on input lin
-e 209.
+e 211.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 209.
+(Font)              scaled to size 12.0pt on input line 211.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 213.
+(Font)              <10> on input line 215.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 213.
+(Font)              <7> on input line 215.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 213.
+(Font)              <5> on input line 215.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' in size <10> not available
 (Font)              Font shape `T1/Roboto-LF/bold/n' tried instead on input lin
-e 215.
+e 217.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 215.
+(Font)              scaled to size 10.0pt on input line 217.
 
-Overfull \hbox (23.71544pt too wide) in paragraph at lines 213--231
+Overfull \hbox (23.71544pt too wide) in paragraph at lines 215--233
  [][] 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+Roboto-LF on input 
-line 245.
+line 247.
 (/usr/share/texmf-dist/tex/latex/roboto/TS1Roboto-LF.fd
 File: TS1Roboto-LF.fd 2019/04/19 (autoinst) Font definitions for TS1/Roboto-LF.
 
 )
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/l/n' in size <10> not available
 (Font)              Font shape `TS1/Roboto-LF/light/n' tried instead on input l
-ine 245.
+ine 247.
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/light/n' will be
-(Font)              scaled to size 10.0pt on input line 245.
+(Font)              scaled to size 10.0pt on input line 247.
 [2]
-Overfull \hbox (23.71544pt too wide) in paragraph at lines 292--316
+Overfull \hbox (23.71544pt too wide) in paragraph at lines 294--318
  [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' in size <7> not available
 (Font)              Font shape `T1/Roboto-LF/light/n' tried instead on input li
-ne 329.
+ne 331.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
-(Font)              scaled to size 7.0pt on input line 329.
+(Font)              scaled to size 7.0pt on input line 331.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/it' in size <10> not available
 (Font)              Font shape `T1/Roboto-LF/light/it' tried instead on input l
-ine 338.
+ine 340.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/it' will be
-(Font)              scaled to size 10.0pt on input line 338.
+(Font)              scaled to size 10.0pt on input line 340.
 [3]
-Overfull \hbox (23.71544pt too wide) in paragraph at lines 375--420
+Overfull \hbox (23.71544pt too wide) in paragraph at lines 377--422
  [][] 
  []
 
 [4]
-Underfull \hbox (badness 1112) in paragraph at lines 439--440
+Underfull \hbox (badness 1112) in paragraph at lines 441--442
 []\T1/Roboto-LF/light/n/10 Méli, A. (2013). ``Phono-log-i-cal ac-qui-si-tion in
  the French-English in-ter-lan-guage: ris-ing above the
  []
 
 Missing character: There is no ´ in font Roboto-Light-lf-ts1!
-[5] [6]
+[5]
+LaTeX Font Info:    Trying to load font information for T3+Roboto-LF on input l
+ine 478.
+LaTeX Font Info:    No file T3Roboto-LF.fd. on input line 478.
+
+LaTeX Font Warning: Font shape `T3/Roboto-LF/l/n' undefined
+(Font)              using `T3/cmr/m/n' instead on input line 478.
+
+[6]
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' in size <8> not available
 (Font)              Font shape `T1/Roboto-LF/light/n' tried instead on input li
-ne 534.
+ne 536.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
-(Font)              scaled to size 8.0pt on input line 534.
+(Font)              scaled to size 8.0pt on input line 536.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' in size <6> not available
 (Font)              Font shape `T1/Roboto-LF/light/n' tried instead on input li
-ne 534.
+ne 536.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
-(Font)              scaled to size 6.0pt on input line 534.
-<index_files/figure-latex/diagno0-1.pdf, id=119, 242.9075pt x 497.86pt>
+(Font)              scaled to size 6.0pt on input line 536.
+<index_files/figure-latex/diagno0-1.pdf, id=120, 242.9075pt x 497.86pt>
 File: index_files/figure-latex/diagno0-1.pdf Graphic file (type pdf)
 <use index_files/figure-latex/diagno0-1.pdf>
 Package pdftex.def Info: index_files/figure-latex/diagno0-1.pdf  used on input 
-line 552.
+line 554.
 (pdftex.def)             Requested size: 158.67746pt x 325.22327pt.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' in size <9> not available
 (Font)              Font shape `T1/Roboto-LF/light/n' tried instead on input li
-ne 556.
+ne 558.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
-(Font)              scaled to size 9.0pt on input line 556.
+(Font)              scaled to size 9.0pt on input line 558.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' in size <9> not available
 (Font)              Font shape `T1/Roboto-LF/bold/n' tried instead on input lin
-e 556.
+e 558.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 9.0pt on input line 556.
+(Font)              scaled to size 9.0pt on input line 558.
 [7 <./index_files/figure-latex/diagno0-1.pdf>]
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/it' in size <8> not available
 (Font)              Font shape `T1/Roboto-LF/light/it' tried instead on input l
-ine 585.
+ine 587.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/it' will be
-(Font)              scaled to size 8.0pt on input line 585.
+(Font)              scaled to size 8.0pt on input line 587.
 
-Underfull \hbox (badness 1112) in paragraph at lines 610--611
+Underfull \hbox (badness 1112) in paragraph at lines 612--613
 []\T1/Roboto-LF/light/n/10 Méli, A. (2013). ``Phono-log-i-cal ac-qui-si-tion in
  the French-English in-ter-lan-guage: ris-ing above the
  []
@@ -1246,25 +1254,25 @@ Underfull \hbox (badness 1112) in paragraph at lines 610--611
 [8]
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' in size <5> not available
 (Font)              Font shape `T1/Roboto-LF/light/n' tried instead on input li
-ne 626.
+ne 628.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
-(Font)              scaled to size 5.0pt on input line 626.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 644.
+(Font)              scaled to size 5.0pt on input line 628.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 646.
 [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 644.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 646.
 (./index.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 644.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 644.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 646.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 646.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 30172 strings out of 492167
- 498148 string characters out of 6131559
- 585001 words of memory out of 5000000
- 34049 multiletter control sequences out of 15000+600000
- 645134 words of font info for 101 fonts, out of 8000000 for 9000
+ 30184 strings out of 492167
+ 498330 string characters out of 6131559
+ 584913 words of memory out of 5000000
+ 34058 multiletter control sequences out of 15000+600000
+ 645590 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,96p,804b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fo
@@ -1277,11 +1285,12 @@ esome/FontAwesome.pfb></usr/share/texmf-dist/fonts/type1/google/roboto/Roboto-B
 old.pfb></usr/share/texmf-dist/fonts/type1/google/roboto/Roboto-Light.pfb></usr
 /share/texmf-dist/fonts/type1/google/roboto/Roboto-LightItalic.pfb></usr/share/
 texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/
-public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on index.pdf (9 pages, 177571 bytes).
+public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></u
+sr/share/texmf-dist/fonts/type1/public/tipa/tipa10.pfb>
+Output written on index.pdf (9 pages, 179567 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
+ 248 PDF objects out of 1000 (max. 8388607)
+ 222 compressed objects within 3 object streams
  74 named destinations out of 1000 (max. 500000)
  6206 words of extra memory for PDF output out of 10000 (max. 10000000)
 
