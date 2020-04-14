@@ -2703,7 +2703,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">CV</h1>
 <h4 class="author">Adrien Méli</h4>
-<h4 class="date">10 April, 2020</h4>
+<h4 class="date">14 April, 2020</h4>
 
 </div>
 
@@ -3192,8 +3192,8 @@ symbolisant l’état d’avancement de chaque étape :</p>
 <li><p>en rouge foncé, ce qui reste à faire (déploiement sur une plate-forme).</p></li>
 </ul>
 <div class="figure" style="text-align: center"><span id="fig:diagno0"></span>
-<div id="htmlwidget-8f744e31aee3a4d39e72" style="width:384px;height:50%;" class="grViz html-widget"></div>
- <script type="application/json" data-for="htmlwidget-8f744e31aee3a4d39e72">{"x":{"diagram":"digraph flowchart {\n     # node definitions with substituted label text\n     node [shape = oval]\n     tab1 [label = \"Apprenant\"]\n     tab2 [label = \"Alignement automatique\", style = filled, fillcolor = DarkSeaGreen3]\n\n\n     tab3 [label = \"Extraction des données acoustiques\", style = filled, fillcolor = DarkSeaGreen3]\n     a [label = \"Traitement formantique\", style = filled, fillcolor = MistyRose1]\n     tab4 [label = \"Corpus natif\", style = filled, fillcolor = HoneyDew1]\n     tab5 [label = \"Test\"]\n     tab6 [label = \"Entraînement\"]\n     tab7 [label = \"Classification\", style = filled, fillcolor = HoneyDew1]\n     tab8 [label = \"Diagnostic\", style = filled, fillcolor = HoneyDew1]\n     tab9 [label = \"Recommandation\", style = filled, fillcolor = MistyRose1]\n     tab0 [label = \"Déploiement\", style = filled, fillcolor = Red1]\n\n     # edge definitions with the node IDs\n     tab1 -> tab2 -> tab3 -> a;\n     tab4 -> tab2 -> tab3 -> a;\n     a -> tab5;\n     a -> tab6;\n     tab5 -> tab7;\n     tab6 -> tab7;\n     tab7 -> tab8 -> tab9 -> tab0;\n\n     }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-7067c1c80405235f75cf" style="width:384px;height:50%;" class="grViz html-widget"></div>
+ <script type="application/json" data-for="htmlwidget-7067c1c80405235f75cf">{"x":{"diagram":"digraph flowchart {\n     # node definitions with substituted label text\n     node [shape = oval]\n     tab1 [label = \"Apprenant\"]\n     tab2 [label = \"Alignement automatique\", style = filled, fillcolor = DarkSeaGreen3]\n\n\n     tab3 [label = \"Extraction des données acoustiques\", style = filled, fillcolor = DarkSeaGreen3]\n     a [label = \"Traitement formantique\", style = filled, fillcolor = MistyRose1]\n     tab4 [label = \"Corpus natif\", style = filled, fillcolor = HoneyDew1]\n     tab5 [label = \"Test\"]\n     tab6 [label = \"Entraînement\"]\n     tab7 [label = \"Classification\", style = filled, fillcolor = HoneyDew1]\n     tab8 [label = \"Diagnostic\", style = filled, fillcolor = HoneyDew1]\n     tab9 [label = \"Recommandation\", style = filled, fillcolor = MistyRose1]\n     tab0 [label = \"Déploiement\", style = filled, fillcolor = Red1]\n\n     # edge definitions with the node IDs\n     tab1 -> tab2 -> tab3 -> a;\n     tab4 -> tab2 -> tab3 -> a;\n     a -> tab5;\n     a -> tab6;\n     tab5 -> tab7;\n     tab6 -> tab7;\n     tab7 -> tab8 -> tab9 -> tab0;\n\n     }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 <p class="caption">
 Figure 1: Processus de diagnostic automatique
 </p>
@@ -3205,7 +3205,7 @@ Les valeurs formantiques de chaque voyelle de l’apprenant sont comparées à c
 <p>L’un des enjeux cruciaux consiste à déterminer :</p>
 <ol style="list-style-type: decimal">
 <li>la manière de traiter les formants (faut-il les normaliser ? À quel endroit de la durée de la voyelle faut-il prendre leur valeur ? Faut-il prendre la F3 ? La F4 ? Modéliser les courbes formantiques sur toute la durée ?)</li>
-<li>quel méthode de classification utiliser (<span class="math inline">\(k\)</span>-NN, machine à vecteurs de support, réseau de neurones artificiels, etc.).</li>
+<li>quelle méthode de classification utiliser (<span class="math inline">\(k\)</span>-NN, machine à vecteurs de support, réseau de neurones artificiels, etc.).</li>
 </ol>
 <p>Toutes ces procédures devraient idéalement être comparées (en espérant une convergence de résultats…) et évaluées (en fonction notamment de leur fiabilité et de leur poids computationnel).</p>
 <p>À noter enfin que l’outil pourrait être élargi (par ordre croissant de complexité) :</p>
