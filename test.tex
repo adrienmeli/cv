@@ -1,0 +1,201 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  10pt,
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Dossier de candidature au poste de Maître de Conférences},
+  pdfauthor={Adrien Méli},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{longtable,booktabs}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{fontawesome}
+\usepackage{amsmath}
+\usepackage{tipa}
+\usepackage{moodle}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage[utf8]{inputenc}
+\usepackage[light,sfdefault]{roboto}
+%\usepackage{fourier}
+%\usepackage{montserrat}
+%\usepackage[T1]{fontenc}
+%\usepackage[french]{babel}
+
+% -----------------------------------------------------------------
+% Hyper Setup
+% -----------------------------------------------------------------
+\hypersetup{
+    %bookmarks=true,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in Acrobat�s bookmarks
+    pdftoolbar=true,        % show Acrobat�s toolbar?
+    pdfmenubar=true,        % show Acrobat�s menu?
+    pdffitwindow=false,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    %pdftitle={},    % title
+    pdfauthor={Adrien Meli},     % author 
+    pdfsubject={Phonological rules},   % subject of the document
+    pdfcreator={Creator},   % creator of the document
+    pdfproducer={Producer}, % producer of the document
+    pdfkeywords={Second Language Acquisition, French, English, phonology}, % list of keywords
+    pdfnewwindow=true,     % links in new window
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=black,          % color of internal links
+    citecolor=black,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=blue,           % color of external links
+    bookmarksopen=false,
+    anchorcolor=black,
+    bookmarksnumbered=true,
+    pdfpagemode=UseOutlines,    %None/UseOutlines/UseThumbs/FullScreen
+    linktocpage=true
+}
+
+% ********************Captions and Hyperreferencing / URL **********************
+
+% Captions: This makes captions of figures use a boldfaced small font.
+
+\usepackage[margin=10pt,font=small,labelfont=bf,labelsep=endash]{caption}
+
+% -----------------------------------------------------------------
+% TABLE OF CONTENTS
+% -----------------------------------------------------------------
+\usepackage[dotinlabels]{titletoc}
+\titlecontents{section}[0em] % entries are pushed to the rtight
+  {} % code to change the appearance
+  {} % section number: increase distance to push to the left
+  {\hspace*{3.3em}}
+  {\titlerule*[1.9mm]{.}\contentspage}
+% remove subsections from TOC
+\setcounter{tocdepth}{1}
+
+% multi-line curly brackets
+
+\newenvironment{rightbracedtext}
+ {$\kern-\nulldelimiterspace\left.\begin{tabular}{@{}l@{}}}
+ {\end{tabular}\right\}$}
+
+\newenvironment{leftbracedtext}{$\left\{\begin{tabular}{@{}l}}{\end{tabular}\right.$}
+
+%----------------------------------------------------------------------------------------
+%	MARGINS
+%----------------------------------------------------------------------------------------
+
+%\usepackage{geometry} % Required for adjusting page dimensions and margins
+%
+%\geometry{
+%	paper=a4paper, % Change to letterpaper for US letter
+%	top=3cm, % Top margin
+%	bottom=3cm, % Bottom margin
+%	left=2cm, % Left margin
+%	right=3cm, % Right margin
+%	headheight=14pt, % Header height
+%	footskip=1.4cm, % Space from the bottom margin to the baseline of the footer
+%	headsep=1.2cm, % Space from the top margin to the baseline of the header
+%	%showframe, % Uncomment to show how the type block is set on the page
+%}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+
+\title{Dossier de candidature au poste de Maître de Conférences}
+\author{Adrien Méli}
+\date{10 April, 2020}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\quad \faEnvira \quad \texttt{adrienmeli@gmail.com} \quad \textbar{} \href{https://adrienmeli.github.io/cv/}{Version Github \quad \faGithub \quad}
+
+\quad \faPhone \quad \texttt{01.55.43.89.87.}
+
+\quad \faEnvelope \quad 236, rue de Charenton 75012 Paris
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\href{https://adrienmeli.github.io/cv/}{Version Github}
+
+\href{https://adrienmeli.github.io/cv/}{PDF}
+
+\textipa{m a U n I @ i :}
+
+\href{https://adrienmeli.github.io/cv/}{Version Github \quad \faGithub}
+
+\end{document}
